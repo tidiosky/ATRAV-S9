@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-12-15 16:37:05 by Eclipse SUMO duarouter Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="map.net.xml"/>
+        <route-files value="map.trips.mxl"/>
+    </input>
+
+    <output>
+        <output-file value="map.rou.mxl"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="tram" vClass="tram"/>
+    <vType id="passenger" vClass="passenger"/>
+
+    <route edges="346598560 346598563#1 346598563#2 346598563#3 346598563#4 346598563#5 346598563#6  346598558#0 346598558#1 346598558#2" color="green" id="tram_pessac"/>
+    <route edges="346598556#0 346598556#1 346598556#2 346598559#0 346598559#1 346598559#2 346598559#3 346598559#4 346598559#5 346598559#6" color="green" id="tram_peix"/>
+
+    <vehicle id="0" type="passenger" depart="0.00">
+        <route edges="25650647#8 -25650647#8 -25650647#4 -25650647#3 -25650647#2 -25608687#5 -25608687#4 -25608687#3 -25608687#2"/>
+    </vehicle>
+    <vehicle id="2" type="passenger" depart="2.00">
+        <route edges="25917424#2 -25917424#2 -25917424#1 -25917481#2 -25917481#1 817637885 244558361#0 244558361#1 865065167#2 865065167#3 865065167#4 865065167#5 881627354 25608514#0 25608514#1 25608514#2 25608514#3 25608514#4 881627353 865065167#0 25651145#0"/>
+    </vehicle>
+    <vehicle id="3" type="passenger" depart="3.00">
+        <route edges="44540142#2 -44540142#2 -44540142#1 -44540142#0 25608687#3 25608687#4 25608687#5 25650647#2 25650647#3 25650647#4 25650647#8 25650647#9 25650647#10 25650647#11 25650647#12 25650647#13 -25650647#13"/>
+    </vehicle>
+    <vehicle id="4" type="passenger" depart="9.00">
+        <route edges="268119088#2 -268119088#2 -268119088#1 25927968#4 25927968#5 44104541#0 25608687#0 -25608687#0"/>
+    </vehicle>
+    <vehicle id="1" type="tram" depart="10.00" route="tram_pessac"/>
+    <vehicle id="5" type="passenger" depart="11.00">
+        <route edges="-44540142#2 -44540142#1 -44540142#0 -25608687#2 -25608687#1 -25608687#0 44104541#1 44104541#2 25650654#0 25650654#1 25650654#2 -25650654#2"/>
+    </vehicle>
+    <vehicle id="6" type="passenger" depart="12.00">
+        <route edges="865065167#3 865065167#4 865065167#5 881627354 25608514#0 25608514#1 25608514#2 25608514#3 25608514#4 881627353 865065167#0 25651145#0 25651145#1 -813984062"/>
+    </vehicle>
+    <vehicle id="7" type="passenger" depart="13.00">
+        <route edges="-25650647#13 -25650647#12 -25650647#11 -25650647#10 -25650647#9 -25650647#8 -25650647#4 -25650647#3"/>
+    </vehicle>
+    <vehicle id="8" type="passenger" depart="14.00">
+        <route edges="44104541#0 25608687#0 25608687#1 25608687#2 25608687#3 25608687#4 25608687#5 25650647#2 25650647#3"/>
+    </vehicle>
+    <vehicle id="9" type="passenger" depart="16.00">
+        <route edges="25608801#4 865065167#0 865065167#1 865065167#2 865065167#3 865065167#4"/>
+    </vehicle>
+    <vehicle id="10" type="tram" depart="17.00" route="tram_peix"/>
+</routes>

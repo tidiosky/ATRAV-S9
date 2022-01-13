@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-01-06 14:07:42 by Eclipse SUMO netconvert Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="/usr/share/sumo/data/typemap/osmNetconvert.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-3855234985" name="Pelletan" lane="-308793837#0_0" startPos="68.89" endPos="83.89" friendlyPos="true" lines="8+">
+        <access lane="-949120262_0" pos="0.00" length="21.27" friendlyPos="1"/>
+        <access lane="308793837#0_0" pos="13.93" length="9.37" friendlyPos="1"/>
+        <access lane="630623337#10_0" pos="363.36" length="2.17" friendlyPos="1"/>
+        <access lane="949120262_0" pos="37.82" length="23.01" friendlyPos="1"/>
+        <access lane="949120263#0_0" pos="0.00" length="85.60" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-3855259246" name="INRIA" lane="-308793836#2_0" startPos="11.04" endPos="19.23" friendlyPos="true" lines="8+"/>
+    <busStop id="-4555792569" lane="-949120256#0_0" startPos="55.48" endPos="70.48" friendlyPos="true" lines="4"/>
+    <busStop id="-5007296305" lane="-308793836#2_0" startPos="10.13" endPos="19.23" friendlyPos="true" lines="8+"/>
+    <busStop id="-5007301210" lane="-308793837#0_0" startPos="69.94" endPos="84.94" friendlyPos="true" lines="8+">
+        <access lane="-334309796#0_0" pos="13.05" length="84.63" friendlyPos="1"/>
+        <access lane="-949120262_0" pos="0.00" length="19.35" friendlyPos="1"/>
+        <access lane="308793837#0_0" pos="12.88" length="2.40" friendlyPos="1"/>
+        <access lane="630623337#10_0" pos="362.28" length="9.13" friendlyPos="1"/>
+        <access lane="949120262_0" pos="37.82" length="19.60" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5007304849" lane="-243103479#3_0" startPos="17.99" endPos="28.91" friendlyPos="true" lines="8+"/>
+    <busStop id="-5007811124" lane="-152383390#1_0" startPos="189.43" endPos="204.43" friendlyPos="true" lines="4"/>
+    <busStop id="-5007811125" lane="-152383390#1_0" startPos="494.91" endPos="509.91" friendlyPos="true" lines="4"/>
+    <busStop id="-5659448038" name="Mairie de Talence" lane="-25721435#0_0" startPos="22.18" endPos="37.18" friendlyPos="true" lines="TBNight 10"/>
+    <busStop id="-8986298000" lane="-25721435#0_0" startPos="22.27" endPos="37.27" friendlyPos="true" lines="TBNight 10"/>
+    <busStop id="1401121120" name="Lycée Victor Louis" lane="431047928#10_0" startPos="64.03" endPos="79.03" friendlyPos="true" lines="TBNight 10 21 35"/>
+    <busStop id="1401121126" name="Lycée Victor Louis" lane="500911769#1_0" startPos="25.78" endPos="40.78" friendlyPos="true" lines="10 21 35"/>
+    <busStop id="244117846" name="Roustaing" lane="346598574#7_0" startPos="399.53" endPos="412.03" friendlyPos="true" lines="B">
+        <access lane="42458344#7_0" pos="353.29" length="8.22" friendlyPos="1"/>
+    </busStop>
+    <busStop id="244117870" name="Peixotto" lane="229376510#3_0" startPos="19.81" endPos="32.31" friendlyPos="true" lines="B">
+        <access lane="-45675271#1_0" pos="1.94" length="26.99" friendlyPos="1"/>
+        <access lane="306532580_0" pos="20.41" length="9.83" friendlyPos="1"/>
+        <access lane="306532583#1_0" pos="17.87" length="4.26" friendlyPos="1"/>
+        <access lane="44127783#1_0" pos="3.22" length="26.14" friendlyPos="1"/>
+        <access lane="45675271#1_0" pos="28.32" length="22.19" friendlyPos="1"/>
+    </busStop>
+    <busStop id="244117871" name="Talence Centre-Forum" lane="346598564#12_0" startPos="20.44" endPos="32.94" friendlyPos="true" lines="B">
+        <access lane="25651051#3_0" pos="15.08" length="14.08" friendlyPos="1"/>
+        <access lane="305539411#0_0" pos="0.00" length="32.21" friendlyPos="1"/>
+        <access lane="305539411#1_0" pos="15.69" length="33.20" friendlyPos="1"/>
+        <access lane="42457312#4_0" pos="30.31" length="9.86" friendlyPos="1"/>
+        <access lane="918004824_0" pos="27.93" length="18.91" friendlyPos="1"/>
+    </busStop>
+    <busStop id="244131760" name="Arts et Métiers" lane="346598556#4_0" startPos="19.42" endPos="31.92" friendlyPos="true" lines="B">
+        <access lane="-522301838_0" pos="23.14" length="19.62" friendlyPos="1"/>
+        <access lane="-54961691#7_0" pos="0.00" length="19.53" friendlyPos="1"/>
+        <access lane="-54961691#8_0" pos="42.91" length="13.78" friendlyPos="1"/>
+        <access lane="54961691#7_0" pos="19.97" length="20.62" friendlyPos="1"/>
+        <access lane="54961691#8_0" pos="2.24" length="15.28" friendlyPos="1"/>
+    </busStop>
+    <busStop id="244131761" name="Béthanie" lane="346598559#6_0" startPos="16.51" endPos="41.51" friendlyPos="true" lines="B">
+        <access lane="-813984061#1_0" pos="29.30" length="7.68" friendlyPos="1"/>
+        <access lane="569993192#4_0" pos="28.77" length="18.70" friendlyPos="1"/>
+        <access lane="769104154_0" pos="0.00" length="36.61" friendlyPos="1"/>
+        <access lane="778860218#1_0" pos="89.55" length="13.00" friendlyPos="1"/>
+        <access lane="813984061#1_0" pos="29.17" length="12.48" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2518697263" lane="44127783#2_0" startPos="27.58" endPos="42.58" friendlyPos="true" lines="TBNight 10"/>
+    <busStop id="2582276863" name="Talence Centre-Forum" lane="346598579#7_0" startPos="16.03" endPos="41.03" friendlyPos="true" lines="B">
+        <access lane="25651051#3_0" pos="15.56" length="9.69" friendlyPos="1"/>
+        <access lane="305539411#0_0" pos="0.25" length="30.31" friendlyPos="1"/>
+        <access lane="305539411#1_0" pos="16.05" length="28.78" friendlyPos="1"/>
+        <access lane="42457312#4_0" pos="29.84" length="14.26" friendlyPos="1"/>
+        <access lane="918004824_0" pos="27.44" length="23.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="267110569" lane="24567234#1_0" startPos="233.79" endPos="248.79" friendlyPos="true"/>
+    <busStop id="273435662" name="Doyen Brus" lane="346598580#0_0" startPos="725.31" endPos="750.31" friendlyPos="true" lines="B">
+        <access lane="-447502751_0" pos="0.00" length="111.59" friendlyPos="1"/>
+        <access lane="229109448#2_0" pos="303.78" length="71.60" friendlyPos="1"/>
+        <access lane="25670050#0_0" pos="0.00" length="113.53" friendlyPos="1"/>
+        <access lane="25670069#3_0" pos="282.15" length="99.45" friendlyPos="1"/>
+        <access lane="628572751#7_0" pos="299.40" length="113.18" friendlyPos="1"/>
+    </busStop>
+    <busStop id="273435759" name="François Bordes" lane="346598556#0_0" startPos="0.00" endPos="12.50" friendlyPos="true" lines="B">
+        <access lane="-54961691#1_0" pos="0.00" length="19.39" friendlyPos="1"/>
+        <access lane="-54961691#2_0" pos="28.60" length="13.90" friendlyPos="1"/>
+        <access lane="-628572751#4_0" pos="16.40" length="13.84" friendlyPos="1"/>
+        <access lane="54961691#2_0" pos="3.02" length="15.40" friendlyPos="1"/>
+        <access lane="628572751#4_0" pos="8.05" length="18.64" friendlyPos="1"/>
+    </busStop>
+    <busStop id="273436020" name="Montaigne Montesquieu" lane="346598580#0_0" startPos="0.00" endPos="12.50" friendlyPos="true" lines="B"/>
+    <busStop id="279124079" lane="305776093#4_0" startPos="16.30" endPos="31.30" friendlyPos="true"/>
+    <busStop id="279124872" lane="25608791#4_0" startPos="335.48" endPos="350.48" friendlyPos="true"/>
+    <busStop id="3090673473" name="Roustaing" lane="346598579#0_0" startPos="0.00" endPos="12.50" friendlyPos="true" lines="B">
+        <access lane="42458344#7_0" pos="353.03" length="13.61" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3114583044" lane="311644663#1_0" startPos="16.92" endPos="31.92" friendlyPos="true" lines="10 21 35"/>
+    <busStop id="3114583045" name="Peixotto" lane="311644663#1_0" startPos="17.01" endPos="32.01" friendlyPos="true" lines="10 21 35"/>
+    <busStop id="3114602134" lane="500911769#1_0" startPos="26.61" endPos="41.61" friendlyPos="true" lines="10 21 35"/>
+    <busStop id="3114720955" lane="431047928#1_0" startPos="45.56" endPos="60.56" friendlyPos="true"/>
+    <busStop id="3114720966" lane="431047928#10_0" startPos="66.09" endPos="81.09" friendlyPos="true" lines="TBNight 10 21 35"/>
+    <busStop id="3114757698" name="Peixotto" lane="346598560#0_0" startPos="0.00" endPos="12.50" friendlyPos="true" lines="B">
+        <access lane="-45675271#1_0" pos="1.70" length="21.63" friendlyPos="1"/>
+        <access lane="306532580_0" pos="20.63" length="4.47" friendlyPos="1"/>
+        <access lane="306532583#1_0" pos="17.61" length="9.62" friendlyPos="1"/>
+        <access lane="45675271#1_0" pos="28.57" length="16.83" friendlyPos="1"/>
+        <access lane="56067240#1_0" pos="87.29" length="24.90" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3529262598" name="Doyen Brus" lane="346598581#1_0" startPos="304.81" endPos="329.81" friendlyPos="true" lines="B">
+        <access lane="-447502751_0" pos="0.00" length="108.93" friendlyPos="1"/>
+        <access lane="229109448#2_0" pos="303.78" length="67.57" friendlyPos="1"/>
+        <access lane="25670050#0_0" pos="0.00" length="110.57" friendlyPos="1"/>
+        <access lane="25670069#3_0" pos="282.15" length="95.73" friendlyPos="1"/>
+        <access lane="628572751#7_0" pos="299.40" length="110.35" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3529262610" name="François Bordes" lane="346598558#4_0" startPos="17.90" endPos="30.40" friendlyPos="true" lines="B">
+        <access lane="-54961691#2_0" pos="28.53" length="18.30" friendlyPos="1"/>
+        <access lane="-628572751#3_0" pos="0.00" length="21.63" friendlyPos="1"/>
+        <access lane="-628572751#4_0" pos="16.54" length="9.43" friendlyPos="1"/>
+        <access lane="54961691#2_0" pos="3.09" length="19.80" friendlyPos="1"/>
+        <access lane="628572751#4_0" pos="7.90" length="14.23" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3529262627" name="Arts et Métiers" lane="346598558#0_0" startPos="0.00" endPos="12.50" friendlyPos="true" lines="B">
+        <access lane="-44104541#0_0" pos="0.00" length="18.79" friendlyPos="1"/>
+        <access lane="-44104541#1_0" pos="21.66" length="18.15" friendlyPos="1"/>
+        <access lane="-54961691#7_0" pos="0.00" length="22.25" friendlyPos="1"/>
+        <access lane="-54961691#8_0" pos="44.06" length="18.67" friendlyPos="1"/>
+        <access lane="54961691#8_0" pos="1.09" length="20.17" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3529262633" name="Béthanie" lane="346598560#5_0" startPos="19.15" endPos="31.65" friendlyPos="true" lines="B">
+        <access lane="-813984061#1_0" pos="29.27" length="12.69" friendlyPos="1"/>
+        <access lane="569993192#4_0" pos="28.59" length="23.71" friendlyPos="1"/>
+        <access lane="769104153_0" pos="0.00" length="37.08" friendlyPos="1"/>
+        <access lane="778860218#1_0" pos="89.49" length="7.99" friendlyPos="1"/>
+        <access lane="813984061#1_0" pos="29.20" length="17.49" friendlyPos="1"/>
+    </busStop>
+    <busStop id="3529309778" name="Montaigne Montesquieu" lane="346598581#1_0" startPos="304.81" endPos="329.81" friendlyPos="true" lines="B"/>
+    <busStop id="3855259207" name="Arts et Métiers" lane="25608820#2_0" startPos="119.87" endPos="127.73" friendlyPos="true" lines="34"/>
+    <busStop id="3855259208" name="Arts &amp; Métiers" lane="25608801#2_0" startPos="112.43" endPos="126.15" friendlyPos="true" lines="8+ 34"/>
+    <busStop id="3855259240" name="Enseirb" lane="229109426#0_0" startPos="5.83" endPos="20.83" friendlyPos="true" lines="34"/>
+    <busStop id="3855268804" name="Village 1" lane="229109426#2_0" startPos="114.09" endPos="129.09" friendlyPos="true" lines="34"/>
+    <busStop id="4414648003" lane="25608176#0_0" startPos="172.76" endPos="187.76" friendlyPos="true" lines="TBNight"/>
+    <busStop id="4615926291" name="Talence Centre-Forum terminus" lane="878739453#0_0" startPos="19.75" endPos="34.75" friendlyPos="true" lines="43"/>
+    <busStop id="4979855043" lane="25721022#1_0" startPos="26.20" endPos="41.20" friendlyPos="true" lines="TBNight 10"/>
+    <busStop id="4979855044" lane="306136939#3_0" startPos="81.42" endPos="96.42" friendlyPos="true" lines="10"/>
+    <busStop id="4979855045" name="Médiathèque" lane="25721022#1_0" startPos="24.35" endPos="39.35" friendlyPos="true" lines="TBNight 10"/>
+    <busStop id="4979855046" name="Médiathèque" lane="306136939#3_0" startPos="78.83" endPos="93.83" friendlyPos="true" lines="10"/>
+    <busStop id="4979867862" lane="25721435#0_0" startPos="37.60" endPos="52.60" friendlyPos="true" lines="10"/>
+    <busStop id="4979867863" name="Mairie de Talence" lane="25721435#0_0" startPos="37.01" endPos="52.01" friendlyPos="true" lines="10"/>
+    <busStop id="5007290714" lane="25608801#2_0" startPos="115.88" endPos="126.15" friendlyPos="true" lines="8+"/>
+    <busStop id="5007290715" lane="25608820#2_0" startPos="108.87" endPos="123.87" friendlyPos="true" lines="34"/>
+    <busStop id="5007296304" lane="308793836#1_0" startPos="2.26" endPos="17.26" friendlyPos="true">
+        <access lane="-308793836#1_0" pos="33.39" length="2.40" friendlyPos="1"/>
+        <access lane="-334313266#0_0" pos="41.90" length="15.10" friendlyPos="1"/>
+        <access lane="522301844_0" pos="0.00" length="12.77" friendlyPos="1"/>
+        <access lane="630623337#12_0" pos="0.20" length="11.43" friendlyPos="1"/>
+        <access lane="630623337#13_0" pos="3.62" length="5.09" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5007301209" lane="949120262_0" startPos="16.51" endPos="31.51" friendlyPos="true"/>
+    <busStop id="5007304848" lane="243103479#3_0" startPos="8.70" endPos="23.70" friendlyPos="true" lines="8+"/>
+    <busStop id="5007811122" lane="152383390#1_0" startPos="462.86" endPos="477.86" friendlyPos="true"/>
+    <busStop id="5007811123" lane="152383390#1_0" startPos="473.61" endPos="488.61" friendlyPos="true" lines="4"/>
+    <busStop id="5007811126" lane="152383390#0_0" startPos="176.62" endPos="191.62" friendlyPos="true" lines="4"/>
+    <busStop id="5007811127" lane="949120256#1_0" startPos="44.88" endPos="59.88" friendlyPos="true" lines="4"/>
+    <busStop id="560705036" name="Peixotto (Tram B)" lane="44127783#2_0" startPos="27.58" endPos="42.58" friendlyPos="true" lines="TBNight 10"/>
+    <busStop id="560705047" lane="970420578#1_0" startPos="21.02" endPos="28.72" friendlyPos="true"/>
+    <busStop id="671592542" name="Clinique mutualiste" lane="25608295#1_0" startPos="61.92" endPos="76.92" friendlyPos="true" lines="34"/>
+    <busStop id="8972133589" lane="183448895#2_0" startPos="10.44" endPos="25.44" friendlyPos="true"/>
+    <busStop id="8972133590" lane="183448895#0_0" startPos="0.00" endPos="9.68" friendlyPos="true"/>
+    <busStop id="8985806795" lane="346598587#1_0" startPos="10.72" endPos="25.72" friendlyPos="true"/>
+    <busStop id="8985806796" lane="346598587#1_0" startPos="23.88" endPos="38.88" friendlyPos="true"/>
+    <busStop id="8985806801" lane="44127783#2_0" startPos="30.10" endPos="37.60" friendlyPos="true"/>
+    <busStop id="9061259619" lane="244560422#2_0" startPos="175.05" endPos="190.05" friendlyPos="true"/>
+    <busStop id="9061259620" lane="244560422#0_0" startPos="128.08" endPos="143.08" friendlyPos="true"/>
+    <busStop id="9062261893" lane="229109426#2_0" startPos="119.61" endPos="129.35" friendlyPos="true"/>
+    <busStop id="9062261894" lane="229109426#0_0" startPos="14.76" endPos="29.76" friendlyPos="true"/>
+    <busStop id="9062261895" lane="25608295#1_0" startPos="61.75" endPos="76.75" friendlyPos="true"/>
+</additional>
